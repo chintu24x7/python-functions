@@ -1,0 +1,9 @@
+def time_execution(code):
+    start = time.clock()
+    eval(code)
+    run_time = time.clock() - start
+    return run_time
+# Examples:
+# print time_execution('1+1')
+# 6.50000......e-05
+# print('function(a, b...)')
